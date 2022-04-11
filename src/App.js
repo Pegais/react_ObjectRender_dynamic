@@ -8,9 +8,9 @@ export default function App() {
   return (
     <div>
   {
-    objEntries.map((ele)=>{
+    objEntries.map((ele,index)=>{
       return(
-        <div>
+        <div id={index}>
           <h1>{ele[0]}</h1>
           <h4>{ele[1]}</h4>
           </div>
